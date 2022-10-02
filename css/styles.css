@@ -1,0 +1,192 @@
+/***************************************************************/
+                        /* IMPORTS */
+/***************************************************************/
+
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+
+
+/***************************************************************/
+                       /* VARIABLES */
+/***************************************************************/
+
+
+:root {
+
+  /* Fonts */
+  --main-font-family: 'Manrope', sans-serif;
+
+
+  /* Font Weights */
+  --fw-medium: 500;
+  --fw-bold: 800;
+
+
+  /* Colors */
+  --bright-hl-color: hsl(179, 80%, 58%);
+  --dark-nuetral-color: hsl(206, 84%, 22%);
+  --light-nuetral-color: hsl(225, 14%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --almost-black: hsl(230, 60%, 8%);
+  --warning-color: hsl(343, 100%, 58%);
+
+}
+
+
+/***************************************************************/
+                       /* MAIN STYLES */
+/***************************************************************/
+
+
+/* html */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* body */
+.main-container {
+  font-size: 0.9375rem;
+  font-weight: var(--fw-medium);
+  background-color: var(--almost-black);
+  color: var(--light-nuetral-color);
+}
+
+
+/* Main Logo */
+.main-logo {
+  width: 8rem;
+  height: 2.1875rem;
+  margin: 2.5rem auto 4.09375rem auto;
+  background-image: url(../assets/logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Hero Background */
+.hero-background {
+  /* width: 25.625rem; */
+  height: 14.5625rem;
+  background-image: url(../assets/illustration-hero-mobile.png);
+  background-size: cover;
+}
+
+
+/* h1 */
+.main-headline {
+  margin: 2.96875rem auto 1.4375rem auto;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: var(--fw-bold);
+  color: var(--white);
+}
+
+
+/* Headline Accent */
+.headline-accent {
+  color: var(--bright-hl-color);
+}
+
+
+/* Hero Copy */
+.hero-copy {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  line-height: 1.5625rem;
+  text-align: center;
+}
+
+
+/* Icon Scroll */
+.icon-scroll {
+  width: 1.625rem;
+  height: 2.625rem;
+  margin: 2rem auto 9rem auto;
+  background-image: url(../assets/icon-scroll.svg);
+}
+
+
+/* Features Container */
+.features-container {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+
+/* Feature Container */
+.feature-container {
+  margin-bottom: 3.5rem;
+}
+
+/* Feature Icon Container */
+.feature-icon-container {
+  width: 7.5rem;
+  height: 7.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--dark-nuetral-color);
+  border-radius: 2.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Feature Icon */
+.feature-icon {
+  width: 4.125rem;
+  height: 5rem;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* ICONS */
+.passion-icon {
+  background-image: url(../assets/illustration-passions.svg);
+}
+
+
+.financial-freedom-icon {
+  background-image: url(../assets/illustration-financial-freedom.svg);
+}
+
+
+.lifestyle-icon {
+  background-image: url(../assets/illustration-lifestyle.svg);
+}
+
+
+.work-icon {
+  background-image: url(../assets/illustration-work-anywhere.svg);
+}
+
+/* Feature Copy Container */
+.feature-copy-container {
+  height: 5.375rem;
+  margin-top: 2rem;
+}
+
+/* h3 */
+.feature-headline {
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  margin-bottom: 0.6875rem;
+  font-weight: var(--fw-bold);
+  color: var(--white);
+}
+
+
+/* Feature Copy */
+.feature-copy {
+  line-height: 1.5625rem;
+}
